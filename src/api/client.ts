@@ -41,7 +41,7 @@ apiClient.interceptors.request.use(
 // Response interceptor for logging
 apiClient.interceptors.response.use(
   (response) => {
-    console.log("RES---->", response.status, response.config.url);
+    // console.log("RES---->", response.status, response.config.url);
     return response;
   },
   (error) => {
